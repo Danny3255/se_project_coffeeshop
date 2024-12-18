@@ -45,10 +45,10 @@
     font-size: 16px;
     line-height: 20px;
     background-color: #1878dc;
-    transition: 0.5s ease;
+    transition: background-color 0.5s ease;
   }
 
-  .form__button:hover{
+  .form__button:hover {
     background-color: #3f96f3;
     transition: opacity 0.5s;
     cursor: pointer;
