@@ -14,4 +14,4 @@ This is the second project of the Software Engineering program at TripleTen. It 
 ## Plan on improving the project
 
 - Make a smooth transition when user clicks each nav link to the corresponding section 
-- Use custom cursors
+
