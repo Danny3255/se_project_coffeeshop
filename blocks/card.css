@@ -4,7 +4,8 @@
 
 .card__title{
     margin: 0 0 32px;
-    font-family: "Inter", "Arial", "sans-serif"; 
+    line-height: 16px;
+    font-family: "Inter", "Arial", sans-serif; 
     font-weight: bold; 
     font-size: 20px; 
 }
