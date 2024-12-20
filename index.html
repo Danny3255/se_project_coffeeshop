@@ -100,8 +100,8 @@
                 allowfullscreen
               ></iframe>
               <p class="recipes__video-caption">
-                <span class="title">French press recipe</span>
-                <span class="time">~15 min</span>
+                <span>French press recipe</span>
+                <span class="recipes__time-span">~15 min</span>
               </p>
             </li>
           </ul>
@@ -134,13 +134,18 @@
               </label>
               <label for="datetime-input" class="form__label">
                 Date & time *
-                <input required type="datetime-local" class="form__input" />
+                <input
+                  required
+                  type="datetime-local"
+                  class="form__input"
+                  id="datetime-input"
+                />
               </label>
-              <label for="" class="form__label">
+              <label for="email" class="form__label">
                 Your email *
                 <input
                   required
-                  id="datetime-input"
+                  id="email"
                   type="email"
                   placeholder="email@email.com"
                   class="form__input"
